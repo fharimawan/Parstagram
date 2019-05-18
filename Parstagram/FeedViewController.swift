@@ -22,7 +22,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         // Do any additional setup after loading the view.
         tableView.delegate = self
-        tableView.delegate = self
+        tableView.dataSource = self
         
     }
     

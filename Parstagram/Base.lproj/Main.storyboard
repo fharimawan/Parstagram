@@ -155,7 +155,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="tableView" destination="gIy-di-Kck" id="x2J-dB-Ph1"/>
+                        <outlet property="tableView" destination="gIy-di-Kck" id="KcZ-p4-wTk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9bz-Hm-CnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
