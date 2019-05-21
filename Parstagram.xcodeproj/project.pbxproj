@@ -19,6 +19,7 @@
 		F3470A2A228A8061006BC652 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3470A29228A8061006BC652 /* FeedViewController.swift */; };
 		F3470A2C228A88E5006BC652 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3470A2B228A88E5006BC652 /* CameraViewController.swift */; };
 		F3470A2E228A9146006BC652 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3470A2D228A9146006BC652 /* PostCell.swift */; };
+		F3CA0F0622935FD30045B9E6 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA0F0522935FD30045B9E6 /* CommentCell.swift */; };
 		F8BB5ECED9D413BC0F4C5DB2 /* Pods_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC5E9E048EE719001643584 /* Pods_ParstagramUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		F3470A29228A8061006BC652 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		F3470A2B228A88E5006BC652 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F3470A2D228A9146006BC652 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		F3CA0F0522935FD30045B9E6 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				F3470A29228A8061006BC652 /* FeedViewController.swift */,
 				F3470A2B228A88E5006BC652 /* CameraViewController.swift */,
 				F3470A2D228A9146006BC652 /* PostCell.swift */,
+				F3CA0F0522935FD30045B9E6 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -370,6 +374,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				F3470A2A228A8061006BC652 /* FeedViewController.swift in Sources */,
 				F34709FA228A7AF2006BC652 /* AppDelegate.swift in Sources */,
 				F3470A2E228A9146006BC652 /* PostCell.swift in Sources */,
+				F3CA0F0622935FD30045B9E6 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
